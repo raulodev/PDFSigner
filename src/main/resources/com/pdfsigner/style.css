@@ -1,0 +1,186 @@
+.tab-label {
+    -fx-text-base-color: white;
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+
+.tab {
+    -fx-background-color:#3390EC;
+    -fx-focus-color: transparent;
+    -fx-border-width: 0 0 0 0;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+}
+
+.tab:selected  {
+    -fx-background-color:white;
+}
+
+.tab:selected .tab-label {
+    -fx-text-base-color: #3390EC;
+}
+
+.tab:hover {
+    -fx-background-color:white;
+}
+
+.tab:hover .tab-label {
+    -fx-text-base-color: #3390EC;
+}
+
+.tab-header-background {
+    -fx-background-color:#3390EC;
+ }
+
+.tab-pane {
+    -fx-background-color: white;
+    -fx-tab-min-height:30;
+}
+
+.tooltip  {
+    -fx-font-size: 14;
+    -fx-font-weight: 100;
+    -fx-background-color:#3390EC;
+}
+
+.button {
+    -fx-text-fill : white;   
+    -fx-background-color:#3390EC;
+    -fx-font-weight: bold;
+    -fx-label-padding: 2,2,2,2;
+    -fx-focus-color: transparent;
+    -fx-pref-width:84;
+}
+
+.button:hover {
+    -fx-background-color:#167fe7;
+}
+
+.label { 
+    -fx-text-fill: black ;
+    -fx-font-weight: bold;
+    -fx-text-alignment :right;
+    -fx-font-size: 13;
+    -fx-pref-height:30;
+}
+
+.tab-header-area {
+    -fx-padding: 0 0 0 0;
+}
+
+.text-field {
+    -fx-pref-height:30;
+    -fx-pref-width:215;
+    -fx-border-width: 1 1 1 1;
+    -fx-border-color: rgb(212, 207, 207);
+    -fx-border-radius: 3;
+    -fx-background-color: white;
+    -fx-font-weight: 100;
+    -fx-text-fill: black ;
+ }
+    
+ .text-field:focused {
+    -fx-faint-focus-color: transparent;
+}
+
+.choice-box{
+    -fx-mark-color:#3390EC;
+    -fx-faint-focus-color: transparent;
+    -fx-pref-height:30;
+    -fx-pref-width:215;
+    -fx-border-width: 1 1 1 1;
+    -fx-border-color: rgb(212, 207, 207);
+    -fx-border-radius: 3;
+    -fx-background-color: white;
+    -fx-font-weight: 100;
+}
+
+.choice-box .label {
+    -fx-font-weight: 100;
+    -fx-text-fill: black ;
+}
+
+.choice-box .context-menu {
+    -fx-background-color: white;
+}
+
+.choice-box .menu-item:focused {
+    -fx-background-color:#3390EC;
+}
+
+.choice-box .menu-item > .label {
+    -fx-text-fill:black ;
+    -fx-font-weight: 100;
+}
+
+.choice-box .menu-item:focused > .label {
+    -fx-text-fill:white ;
+    -fx-font-weight: 100;
+}
+
+.check-box  {
+    -fx-mark-color:#3390EC;
+    -fx-font-weight: bold;
+    -fx-text-fill:black;
+}
+
+.check-box .box {
+    -fx-background-color: white;
+    -fx-border-width: 1 1 1 1;
+    -fx-border-color: rgb(212, 207, 207);
+    -fx-border-radius: 3;
+}
+
+.spinner {
+    -fx-background-color: white;
+    -fx-border-width: 1 1 1 1;
+    -fx-border-radius: 3;
+    -fx-pref-height:20;
+    -fx-pref-width:80;
+}
+
+.increment-arrow-button {
+    -fx-background-color: #3390EC;
+}
+
+.increment-arrow-button:hover {
+    -fx-background-color: #167fe7;
+}
+
+.decrement-arrow-button {
+    -fx-background-color: #3390EC;
+}
+
+.decrement-arrow-button:hover {
+    -fx-background-color: #167fe7;
+}
+
+.increment-arrow  {
+    -fx-background-color: white;
+}
+
+.decrement-arrow  {
+    -fx-background-color: white;
+}
+
+#containerbox1 {
+    -fx-background-color: white;
+    -fx-border-color: rgb(212, 207, 207);
+    -fx-border-width: 1 1 1 1;
+    -fx-border-radius: 3;
+    -fx-pref-height:132;
+    -fx-pref-width:215;
+}
+
+.button#button-select-file {
+    -fx-pref-width:215;
+
+} 
+
+.label#primary-label {
+    -fx-text-fill: #167fe7 ; 
+}
+
+.text-field#imagePathfield {
+    -fx-pref-width:10;
+}
